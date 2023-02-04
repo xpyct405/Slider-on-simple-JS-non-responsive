@@ -23,6 +23,7 @@ showSlides(slideIndex);
 
 /* Функция перелистывания: */
 function showSlides(n) {
+    
     /* Обращаемся к элементам с названием класса "item", то есть к картинкам: */
     let slides = document.querySelectorAll(".item");
     console.log(slides.length); //3
@@ -43,6 +44,7 @@ function showSlides(n) {
         slides[i].style.display = "none";
 
     }
+
     /* Делаем элемент блочным: */
     slides[slideIndex - 1].style.display = "block";
 }
