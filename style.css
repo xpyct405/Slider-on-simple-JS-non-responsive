@@ -10,7 +10,8 @@
     height: 300px;
 }
 
-.slider .previous, .slider .next {
+.slider .previous,
+.slider .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -26,7 +27,7 @@
     right: 0;
 }
 
-.previous:hover,
-.next:hover {
+.slider .previous:hover,
+.slider .next:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
